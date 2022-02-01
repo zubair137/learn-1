@@ -1,0 +1,9 @@
+name: my-first-main-file
+
+on:
+  push:
+
+jobs:
+  aboutMe:
+    echo "My name is Zubair Ahmed"
+
