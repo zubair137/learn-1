@@ -4,7 +4,9 @@ on:
   push:
 
 jobs:
-  aboutMe:
-    run:
-      echo "My name is Zubair Ahmed"
+  build:
+    steps:
+      - name: xyz
+        run: echo My name is zubair
+
 
