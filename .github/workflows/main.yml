@@ -1,0 +1,13 @@
+name: my-first-main-file
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: xyz
+        run: echo My name is zubair
+
+
