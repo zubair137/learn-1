@@ -5,5 +5,6 @@ on:
 
 jobs:
   aboutMe:
-    echo "My name is Zubair Ahmed"
+    run:
+      echo "My name is Zubair Ahmed"
 
